@@ -1,0 +1,36 @@
+:root{
+    --dark_green: #45b245;
+    --luigui_green: #40e54f;
+    --luigui_blue: 	#0044ff;
+    --luigui_pants: #3b5bf2;
+    --soft_green: #22B24C;
+
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(var(--soft_green), var(--luigui_green));
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: var(--luigui_green) !important;
+}
+
+.nav-link{
+    color: var(--luigui_blue);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-icon{
+    height: 100px;
+}

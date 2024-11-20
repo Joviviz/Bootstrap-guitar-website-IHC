@@ -17,7 +17,8 @@ angular.module('guitarApp').config(['$routeProvider',
             }).
             when('/contact', {
                 templateUrl: '/public/views/contact.html'
-            })
+            }).
+            otherwise('/home')
         }
     ]);
 

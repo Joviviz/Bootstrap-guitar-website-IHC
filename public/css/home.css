@@ -1,0 +1,21 @@
+:root{
+    --dark_green: #45b245;
+    --luigui_green: #40e54f;
+    --luigui_blue: 	#0044ff;
+    --luigui_pants: #3b5bf2;
+    --soft_green: #22B24C;
+}
+
+.home-wrapper{
+    margin: 5px;
+    background-color:var(--luigui_pants) ;
+    border-radius: 10px;
+    height: 1000px;
+    color: white;
+}
+
+.guitar-class-img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
