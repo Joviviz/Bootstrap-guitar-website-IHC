@@ -7,15 +7,9 @@
 }
 
 .home-wrapper{
-    margin: 5px;
     background-color:var(--luigui_pants) ;
-    border-radius: 10px;
     height: 1000px;
     color: white;
 }
 
-.guitar-class-img{
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
 
-}
