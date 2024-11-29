@@ -1,15 +1,19 @@
 :root{
     --dark_green: #45b245;
-    --luigui_green: #40e54f;
-    --luigui_blue: 	#0044ff;
-    --luigui_pants: #3b5bf2;
+    --luigi_green: #40e54f;
+    --luigi_blue: 	#0044ff;
+    --luigi_pants: #3b5bf2;
     --soft_green: #22B24C;
 }
 
 .home-wrapper{
-    background-color:var(--luigui_pants) ;
+    background-color:var(--luigi_pants) ;
     height: 1000px;
     color: white;
+}
+
+img{
+    max-height: 1000px;
 }
 
 

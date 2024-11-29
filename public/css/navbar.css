@@ -1,8 +1,8 @@
 :root{
     --dark_green: #45b245;
-    --luigui_green: #40e54f;
-    --luigui_blue: 	#0044ff;
-    --luigui_pants: #3b5bf2;
+    --luigi_green: #40e54f;
+    --luigi_blue: 	#0044ff;
+    --luigi_pants: #3b5bf2;
     --soft_green: #22B24C;
 
 }
@@ -10,21 +10,36 @@
 html, body{
     height: 100%;
     margin: 0;
+    margin-top: 40px;
 }
 
 body{
-    background-image: linear-gradient(var(--soft_green), var(--luigui_green));
+    background-image: linear-gradient(var(--soft_green), var(--luigi_green));
     background-repeat: no-repeat;
     background-size: cover;      
     background-attachment: fixed;
 }
 
+.navbar-brand{
+    font-family: 'New Super Mario Font U', sans-serif;                                            
+}
+
 .navbar{
-    background-color: var(--luigui_green) !important;
+    background-color: var(--luigi_green) !important;
+    font-family: 'New Super Mario Font U', sans-serif; 
+}
+
+.navbar-nav{
+    background-color: var(--luigi_green) !important;
+}
+
+.offcanvas{
+    font-family: 'New Super Mario Font U', sans-serif; 
+    background-color: var(--dark_green) !important;
 }
 
 .nav-link{
-    color: var(--luigui_blue);
+    color: var(--luigi_blue);
 }
 
 .nav-link:hover{
