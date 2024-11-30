@@ -33,9 +33,14 @@ body{
     background-color: var(--luigi_green) !important;
 }
 
+.offcanvas-header{
+    background-color: var(--luigi_green) !important;
+}
+
 .offcanvas{
     font-family: 'New Super Mario Font U', sans-serif; 
     background-color: var(--dark_green) !important;
+    background-image: url('/public/imgs/luigui-dance.gif');
 }
 
 .nav-link{
