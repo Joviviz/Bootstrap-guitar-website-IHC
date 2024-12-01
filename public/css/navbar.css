@@ -54,3 +54,8 @@ body{
 .navbar-icon{
     height: 50px;
 }
+.secret{
+    color: var(--luigi_green) !important;
+}
+
+

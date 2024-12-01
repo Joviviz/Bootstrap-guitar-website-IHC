@@ -8,7 +8,7 @@
 
 .home-wrapper{
     background-color:var(--luigi_pants) ;
-    height: 1500px;
+    height: 3000px;
     color: white;
 }
 
@@ -16,4 +16,15 @@ img{
     max-height: 1000px;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }
+  
+  .icon-container i {
+    font-size: 48px; 
+    color: var(--dark_green);
+  }
 
