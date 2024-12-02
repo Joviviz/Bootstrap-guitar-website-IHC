@@ -21,6 +21,9 @@ angular.module('guitarApp').config(['$routeProvider',
             when('/lore', {
                 templateUrl: '/public/views/lore.html'
             }).
+            when('/luigi_sings', {
+                templateUrl: '/public/views/luigi_sings.html'
+            }).
             otherwise('/home')
         }
     ]);
