@@ -6,10 +6,6 @@
     --soft_green: #22B24C;
 }
 
-.home-wrapper{
-    background-color:var(--luigi_pants) ;
-    color: white;
-}
 
 img{
     max-height: 1000px;
