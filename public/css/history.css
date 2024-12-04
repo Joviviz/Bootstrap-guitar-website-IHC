@@ -15,10 +15,19 @@
   font-weight: 1000;
 }
 
-.card {
-  overflow: hidden;
+.we-scroll{
+  overflow-y: scroll;
+  max-height: 550px;
+  height: 100%;
 }
 
-.card-img-overlay {
-  overflow-y: auto;
+.text-white-underline {
+  text-decoration: underline;
+  text-decoration-color: white; /* Cor do sublinhado */
+}
+
+@media (max-width: 800px) {
+  .we-scroll {
+    max-height: 450px; 
+  }
 }

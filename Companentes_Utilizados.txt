@@ -1,0 +1,10 @@
+1 - Navbar - todas as paginas
+2 - Offcanvas - navbar
+3 - Carousel - pagina home
+4 - Card - Home, Historia, Planos
+5 - Scrollspy - Historia
+6 - List-group - Planos
+
+
+
+Icones - Home, Historia

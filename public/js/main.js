@@ -27,4 +27,3 @@ angular.module('guitarApp').config(['$routeProvider',
             otherwise('/home')
         }
     ]);
-
