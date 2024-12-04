@@ -6,6 +6,6 @@
 6 - List-group - Planos
 7 - Close Button - navbar
 8 - Modal - Planos
-
+9 - Badge - Planos Yoshi
 
 Icones - Home, Historia
