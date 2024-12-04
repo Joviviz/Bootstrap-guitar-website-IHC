@@ -5,6 +5,7 @@
 5 - Scrollspy - Historia
 6 - List-group - Planos
 7 - Close Button - navbar
+8 - Modal - Planos
 
 
 Icones - Home, Historia

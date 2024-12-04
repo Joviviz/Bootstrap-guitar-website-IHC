@@ -48,7 +48,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font">Comprar</button>
+              <button class="button luigi-font"data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
           class="card h-100 d-flex flex-column shadow border border-5 border-warning"
         >
           <img
-            src="/public/imgs/goomba_card.png"
+            src="/public/imgs/koopa_card.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -95,7 +95,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font">Comprar</button>
+              <button class="button luigi-font"data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@
           class="card h-100 d-flex flex-column shadow border border-5 border-warning"
         >
           <img
-            src="/public/imgs/goomba_card.png"
+            src="/public/imgs/yoshi_card.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -142,7 +142,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font ">Comprar</button>
+              <button class="button luigi-font "data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@
           class="card h-100 d-flex flex-column shadow border border-5 border-warning"
         >
           <img
-            src="/public/imgs/goomba_card.png"
+            src="/public/imgs/bowser_card.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -191,7 +191,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font ">Comprar</button>
+              <button class="button luigi-font "data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -200,10 +200,10 @@
       <!-- Mario -->
       <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div
-          class="card h-100 d-flex flex-column shadow border border-5 border-warning"
+          class="card h-100 d-flex flex-column shadow border border-5 border-danger"
         >
           <img
-            src="/public/imgs/goomba_card.png"
+            src="/public/imgs/mario_card.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -238,7 +238,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font ">Comprar</button>
+              <button class="button luigi-font "data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -247,10 +247,10 @@
       <!-- Luigi -->
       <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div
-          class="card h-100 d-flex flex-column shadow border border-5 border-warning"
+          class="card h-100 d-flex flex-column shadow border border-5 border-success"
         >
           <img
-            src="/public/imgs/goomba_card.png"
+            src="/public/imgs/luigi_card.jpg"
             class="card-img-top"
             alt="..."
           />
@@ -285,7 +285,7 @@
             </div>
 
             <div class="position-absolute bottom-0 start-50 translate-middle">
-              <button class="button luigi-font ">Comprar</button>
+              <button class="button luigi-font " data-bs-toggle="modal" data-bs-target="#cartaoCreditoModal">Comprar</button>
             </div>
           </div>
         </div>
@@ -306,5 +306,51 @@
         />
       </a>
     </div>
+
+    <!-- Modal -->
+
+<div class="modal fade" id="cartaoCreditoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header inline d-inline">
+        <p><small style="color: rgb(176, 176, 176);">(me de todas as suas)</small></p>
+        <h1 style="color: black;" class="modal-title fs-5" id="exampleModalLabel">Informações do seu cartao de crédito</h1>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <form id="formCartaoCredito">
+          <div class="mb-3">
+            <label for="numeroCartao" class="form-label">Número do Cartão</label>
+            <input type="text" class="form-control" id="numeroCartao" placeholder="#### #### #### ####" required>
+          </div>
+          <div class="mb-3">
+            <label for="nomeTitular" class="form-label">Nome do Titular</label>
+            <input type="text" class="form-control" id="nomeTitular" placeholder="Nome do Titular" required>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="validadeCartao" class="form-label">Validade (MM/AA)</label>
+              <input type="text" class="form-control" id="validadeCartao" placeholder="MM/AA" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="codigoSeguranca" class="form-label">Código de Segurança (CVV)</label>
+              <input type="text" class="form-control" id="codigoSeguranca" placeholder="CVV" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="enderecoCobertura" class="form-label">Endereço de Cobrança</label>
+            <input type="text" class="form-control" id="enderecoCobertura" placeholder="Endereço de Cobrança" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   </section>
 </div>
