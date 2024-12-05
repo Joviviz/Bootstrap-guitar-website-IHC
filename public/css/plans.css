@@ -34,4 +34,16 @@
     background-image: linear-gradient(var(--luigi_green), var(--soft_green)) !important;
   }
 
-  
+  .text-animation{
+    animation: change-color-anim 20s linear infinite;
+  }
+
+
+  @keyframes change-color-anim {
+    0%,100%{
+      color: #ff4500;
+    }
+    50%{
+      color: #7fff00;
+    }
+  }
