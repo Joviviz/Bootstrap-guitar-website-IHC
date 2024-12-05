@@ -19,13 +19,21 @@
     border-bottom-left-radius: 10em;
     border-bottom-right-radius: 10em;
   }
-  .btn {
+  .luigi {
     width: 100%;
     padding: 0.75em 0.5em;
     border-radius: 0;
     background-color: teal;
     border-color: teal;
   }
+  .waluigi {
+    width: 100%;
+    padding: 0.75em 0.5em;
+    border-radius: 0;
+    background-color: plum;
+    border-color: plum;
+  }
+
 
   @media (max-width: 576px) {
     .card {
