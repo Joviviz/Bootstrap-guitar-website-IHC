@@ -31,3 +31,9 @@
     max-height: 450px; 
   }
 }
+
+@media (max-width: 380px) {
+  .we-scroll {
+    max-height: 300px; 
+  }
+}
