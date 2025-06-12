@@ -42,7 +42,7 @@ body{
 .offcanvas{
     font-family: 'New Super Mario Font U', sans-serif; 
     background-color: var(--dark_green) !important;
-    background-image: url('public/animated/luigui-dance.gif');
+    background-image: url('/public/animated/luigui-dance.gif');
 }
 
 .nav-link{
