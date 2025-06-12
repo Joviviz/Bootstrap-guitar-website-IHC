@@ -1,13 +1,14 @@
-:root{
+:root {
     --dark_green: #45b245;
     --luigi_green: #40e54f;
-    --luigi_blue: 	#0044ff;
+    --luigi_blue: #0044ff;
     --luigi_pants: #3b5bf2;
     --soft_green: #22B24C;
 
 }
 
-html, body{
+html,
+body {
     height: 100%;
     margin: 0;
     margin-top: 40px;
@@ -15,56 +16,57 @@ html, body{
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     background-image: linear-gradient(var(--soft_green), var(--luigi_green));
     background-repeat: no-repeat;
-    background-size: cover;      
+    background-size: cover;
     background-attachment: fixed;
 }
 
-.navbar-brand{
-    font-family: 'New Super Mario Font U', sans-serif;                                            
+.navbar-brand {
+    font-family: 'New Super Mario Font U', sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: var(--luigi_green) !important;
-    font-family: 'New Super Mario Font U', sans-serif; 
+    font-family: 'New Super Mario Font U', sans-serif;
 }
 
-.navbar-nav{
-    background-color: var(--luigi_green) !important;
-}
-
-.offcanvas-header{
+.navbar-nav {
     background-color: var(--luigi_green) !important;
 }
 
-.offcanvas{
-    font-family: 'New Super Mario Font U', sans-serif; 
+.offcanvas-header {
+    background-color: var(--luigi_green) !important;
+}
+
+.offcanvas {
+    font-family: 'New Super Mario Font U', sans-serif;
     background-color: var(--dark_green) !important;
-    background-image: url('public/animated/luigui-dance.gif');
+    background-image: url('../animated/luigui-dance.gif');
 }
 
-.nav-link{
+.nav-link {
     color: var(--luigi_blue);
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: white;
 }
 
-.navbar-icon{
+.navbar-icon {
     height: 50px;
 }
-.secret{
+
+.secret {
     color: var(--luigi_green) !important;
 }
 
-.home-wrapper{
-    background-color:var(--luigi_pants) ;
+.home-wrapper {
+    background-color: var(--luigi_pants);
     color: white;
 }
 
-.luigi-font{
-    font-family: 'New Super Mario Font U', sans-serif !important;    
+.luigi-font {
+    font-family: 'New Super Mario Font U', sans-serif !important;
 }
