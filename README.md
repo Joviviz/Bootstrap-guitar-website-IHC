@@ -1,11 +1,13 @@
 # Projeto Wireframe IHC
 # Página de curso de violão
-## Rodar o index com a extensão Livre-Server do vscode
 
-Link do Figma: </br>
+Uma prática de Bootstrap 5.3v visando praticar o uso de componentes e testar o uso do Angular.js 
+
+# Link do Figma:
 https://www.figma.com/design/dEuRqZ5CpOQqthng9Ex1S7/Guitar-Website?node-id=0-1&t=4ukL1ovi00OXGFoT-1
 
 
+# Elementos Utilizados
 1 - Navbar - todas as paginas <br>
 2 - Offcanvas - navbar <br>
 3 - Carousel - pagina home <br>
